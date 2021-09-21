@@ -15,10 +15,9 @@
   \new Staff = "fluteIIIStaff" <<
     \new NullVoice { \structure }
     \new Voice = "fluteIIIVoice" {
-      \compressMMRests {
-        \transpose a' b' \fluteIII
-        \transpose b' h' \fluteIII-PtII
-      }
+      \compressEmptyMeasures
+      \transpose a' b' \fluteIII
+      \transpose b' h' \fluteIII-PtII
     }
   >>
 }

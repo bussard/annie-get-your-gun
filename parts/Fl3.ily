@@ -81,7 +81,7 @@ fluteIII = \relative c'' {
 fluteIII-PtII = \relative c'' {
    \transposition c'
    \key b \major
-    <>^\markup{\box \bold "Picc."}
+    <>-\tweak X-offset #4 ^\markup{\box \bold "Picc."}
 
    \quoteDuring "flI" s1*9
 

@@ -47,7 +47,7 @@ fluteIII = \relative c'' {
   R1*5
 
   \barNumberCheck #53
-  \quoteDuring "flI" s1*16
+  R1*16
 
   \barNumberCheck #69
   <>^\markup {\box \bold "Flute"}
